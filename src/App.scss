@@ -1,0 +1,160 @@
+$base-color: #0d6efd;
+
+body {
+  background-color: #f5f5f5;
+}
+
+.default-header {
+  background: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  // z-index: 1000;
+}
+
+.crayons-header {
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 4px -1px,
+    rgb(0 0 0 / 14%) 0px 4px 5px 0px, rgb(0 0 0 / 12%) 0px 1px 10px 0px;
+  z-index: 9999;
+}
+
+.navBar_default {
+  width: auto;
+  margin: 0 50px;
+  height: 56px;
+}
+
+.c-btn-search {
+  &:hover {
+    background: #d0d2f9;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    transition-duration: 0.5s;
+  }
+}
+
+.c-btn {
+  padding: 5px;
+  &:hover {
+    background: #d0d2f9;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    transition-duration: 0.3s;
+  }
+}
+
+.Navbar_search-input {
+  outline: none;
+  border-radius: 10px;
+  border: #ebe7e7 1px solid;
+  &:hover {
+    transition-duration: 0.3s;
+    background-color: white;
+  }
+  &:focus {
+    border-color: $base-color;
+    background-color: white;
+    box-shadow: 0 0 0 2px rgba($color: $base-color, $alpha: 0.1);
+  }
+}
+
+.Listings-style {
+  &:hover {
+    background: #d0d2f9;
+    border: none;
+    outline: none;
+    transition-duration: 0.5s;
+  }
+}
+
+.Login_style,
+.default-navigations {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  &:hover {
+    transition-duration: 0.5s;
+    background-color: #d0d2f9;
+    color: $base-color;
+    outline: none;
+  }
+}
+.default-navigations-icon,
+.default-page {
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  &:hover {
+    transition-duration: 0.3s;
+    background-color: #cbd5e1;
+    color: $base-color;
+    outline: none;
+  }
+}
+
+.CreateAccount_style {
+  color: $base-color;
+  border-color: $base-color;
+  font-weight: 500;
+  &:hover {
+    transition-duration: 0.5s;
+    background-color: $base-color;
+    color: white;
+    outline: none;
+  }
+}
+
+.screen-reader-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.default_PageContent {
+  width: 100%;
+  margin-top: 56px;
+  box-sizing: border-box;
+  display: block;
+}
+.sidebar-left,
+.sidebar-right {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 60px;
+}
+
+.LayOut_PageContainer {
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  // grid-template-columns: 265px 2fr 1fr;
+  padding: 1rem;
+}
+
+.color-base {
+  color: $base-color;
+}
+
+.articles_detail {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+}
+
+footer {
+  background-color: #e5e5e5;
+  color: #404040;
+  padding: 3rem;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}

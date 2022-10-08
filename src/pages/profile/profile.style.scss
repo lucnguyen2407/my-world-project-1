@@ -1,0 +1,43 @@
+.author-header {
+  position: relative;
+  .author-background {
+    background-color: #000;
+    height: 20vh;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -9999;
+  }
+  .author-image {
+    border: 8px solid #000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20%;
+    z-index: 1000;
+  }
+  .author-container {
+    width: 50%;
+    position: relative;
+    top: 100px;
+    .author-button {
+      position: absolute;
+      right: 24px;
+      top: 24px;
+    }
+  }
+}
+
+.author-main {
+  width: 50%;
+
+  .author-main-1 {
+    height: fit-content;
+  }
+}
+
+.css-1 {
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: 8px;
+  padding: 8px;
+}

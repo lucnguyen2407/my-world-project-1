@@ -1,0 +1,58 @@
+.imp-page-container {
+  .imp-page-center {
+    .imp-page-background {
+      background: url("https://res.cloudinary.com/practicaldev/image/fetch/s--7KGY-vem--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/19911r0reqks59adg1n3.png");
+      background-position: 50%;
+      background-size: cover;
+      height: 200px;
+    }
+    .imp-page-main {
+      .imp-page-box {
+        text-indent: 50px;
+        background-color: rgb(250, 250, 250);
+        border-radius: 16px;
+        padding: 50px;
+        margin: 8px 14px;
+        text-align: justify;
+        font-size: 18px;
+        font-family: "Segoe UI Regular";
+      }
+    }
+    .imp-comment {
+      width: 100%;
+      margin-left: auto;
+      box-sizing: border-box;
+      margin-right: auto;
+      display: block;
+      border-top: 1px solid rgb(224, 224, 224);
+      padding: 32px 0px 64px;
+      padding-left: 32px;
+      padding-right: 32px;
+      .imp-comment-list {
+        .css-1 {
+          border: 1px solid rgb(240, 240, 240);
+          border-radius: 8px;
+          padding: 8px;
+        }
+      }
+    }
+  }
+  .imp-page-right {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    .imp-user-background {
+      background-color: #000;
+      height: 60px;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: -9999;
+    }
+    .imp-user-detail {
+      position: relative;
+      top: 35px;
+      left: 25px;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.header_content {
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.reponsive_content {
+  background: white;
+  max-width: 300px;
+  width: 90%;
+  z-index: 999999999999;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  top: 55px;
+}
+.reponsive_content_icon {
+  z-index: 9999;
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  cursor: pointer;
+}
+.bgNavbar_style {
+  background: black;
+  opacity: 0.5;
+  position: fixed;
+  inset: 56px 0 0;
+  z-index: 0;
+}
+
+.layout_sidebar {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+}
