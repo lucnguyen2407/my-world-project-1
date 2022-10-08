@@ -7,8 +7,8 @@ import Relevant from "./components/container/Relevant";
 import NavBar from "./components/Navbar";
 import PageContent from "./components/Page.content";
 import NewImpPage from "./pages/new-implementation";
-import CreateAccount from "./pages/Tungcs_createaccount/create";
-import Login from "./pages/Tungcs_login/login";
+import CreateAccount from "./pages/createaccount/create";
+import Login from "./pages/login/login";
 
 import { ToastContainer } from "react-toastify";
 import CreateActicle from "./pages/createArticle/createArticle";
